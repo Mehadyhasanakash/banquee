@@ -20,6 +20,9 @@
     flex: 6;
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 200px;
 }
 
 p{
@@ -32,36 +35,102 @@ p{
 }
 
 .item-text{
-    margin-left: 15px;
+    margin-left: 20px;
     font-size: 18px;
 }
 .item-right{
-    margin-left: 30px;
+    margin-left: 35px;
     display: inline-flex;
-}.item-seconed{
+}
+.icon-right{
+    margin-left: 16px;
+}
+
+.item-seconed{
     display: flex;
     align-items: center;
+    margin-top: 20px;
+    
+}
+.copare-crd{
     margin-top: 20px;
 }
 
 .open-button{
-    margin-top: 30px;
     font-size: 15px;
 }
 .copare-crd{
     display: flex;
+    justify-items: center;
+    align-items: center;
 }
 
 .p{
     margin-left: 30px;
-    margin-top: 30px;
     font-size: 20px;
     color: #5BB5A2;
 }
 .icon{
  font-size: 30px !important;
- margin-top: 28px;
  margin-left: 5px;
  color: #5BB5A2;
  
 }
+
+
+.card-containers{
+    height: 300px;
+    width: 500px;
+    background:linear-gradient(#5BB5A2, #53A191) ;
+    border-radius: 15px;
+    position: relative;
+    transform: rotate(102deg);
+    position: absolute;
+    margin-top: -140px;
+    margin-left: 100px;
+
+}
+
+.card-container{
+    height: 300px;
+    width: 500px;
+    background:linear-gradient(#485563, #29323C) ;
+    border-radius: 15px;
+    
+    transform: rotate(90deg);
+    
+}
+
+.card-logo{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 40px;
+    color: white;
+}
+
+.card-number{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    color: white;
+    font:900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-customer-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    color: white;
+}
+
+.card-title{
+    display: flex;
+}
+.expir-date{
+    margin-left: 30px;
+}
+
