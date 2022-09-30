@@ -6,7 +6,7 @@ const Nav = () => {
         <>
         <section className='nave-container'>
         <div className="left">
-            <h1>Banquee.</h1>
+            <p className='logo'>Banquee.</p>
 
         </div>
 
