@@ -12,7 +12,6 @@ const Hero = () => {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, culpa quo voluptatibus non quaerat animi?</p>
 
 
-                       
                        <div className='item'>
                        <CheckCircle/> <samp className='item-text'>Instant Transfer</samp>
                        <div className='item-right'>
