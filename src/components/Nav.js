@@ -21,7 +21,7 @@ const Nav = () => {
         </div>
 
         <div className="right">
-            <h4>Login</h4>
+            <h4 className='login'>Login</h4>
             <button>Open Account</button>
 
         </div>

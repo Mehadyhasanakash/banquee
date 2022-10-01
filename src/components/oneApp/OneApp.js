@@ -1,4 +1,4 @@
-import { ElectricBolt, Wifi } from '@mui/icons-material'
+import { Apple, ArrowForward, ElectricBolt, Google, Home, Person, Twitter, Wifi } from '@mui/icons-material'
 import React from 'react'
 import "./oneapp.css"
 
@@ -53,7 +53,6 @@ const OneApp = () => {
                         <h1>$ 4.658,50</h1>
 
                     </div>
-
                     <div className="mobile-card">
                        
                         <div className='card-containeres'>
@@ -75,13 +74,13 @@ const OneApp = () => {
                             <div className='card-customer-title'>
                                 <div className="card-title">
                                     <div className='johen-deo'>
-                                        <h5>John Doe</h5>
-                                        <h3>JCard Holder</h3>
+                                        <h6>John Doe</h6>
+                                        <h5>JCard Holder</h5>
                                     </div>
 
-                                    <div className='expir-date'>
-                                        <h5>Expiry Date</h5>
-                                        <h3>09/28</h3>
+                                    <div className='expir-dates'>
+                                        <h6>Expiry Date</h6>
+                                        <h5>09/28</h5>
                                     </div>
                                 </div>
 
@@ -94,8 +93,143 @@ const OneApp = () => {
 
                         </div>
                     </div>
+                    
+
+                    
+
+                    {/* orther */}
+                    <div className="money">
+                        <div className="send-money">
+                            <Person/>
+                            <h3 className='money-title'>send money</h3>
+                        </div>
+                        <div className="send-money">
+                            <Person/>
+                            <h3 className='money-title'>Receive Money</h3>
+                        </div>
+                    </div>
+
+                    {/* order */}
+                    <div className="Transactions">
+                        <div className="t-title">
+                            <h3>Transactions</h3>
+                        </div>
+                        <div className="view">
+                            <h3>View all</h3>
+                            <ArrowForward/>
+                        </div>
+                    </div>
+
+                    {/* order */}
+
+                    <div className="socal-icon">
+                        <div className="apple">
+                        <div >
+                            <Apple className='apple-logo'/>
+                                                
+                        </div>
+                        <div>
+                            <h1 className='apple-tile'>Apple </h1>
+                            <h1 className='title-seeond'> Electonic</h1>
+
+                        
+                        </div>
+                        </div>
+                        <div className='chash'>
+                            <h1>-799$</h1>
+                        </div>
+                        
+                    </div>
+
+                    {/* order */}
+                    <div className="socal-icon">
+                        <div className="apple">
+                        <div >
+                            <Twitter className='apple-logo'/>
+                                                
+                        </div>
+                        <div>
+                            <h1 className='apple-tile'>Twitter </h1>
+                            <h1 className='title-seeond'> Ads</h1>
+
+                        
+                        </div>
+                        </div>
+                        <div className='chash'>
+                            <h1>--9$$</h1>
+                        </div>
+                        
+                    </div>
+
+                    {/* order */}
+                    <div className="socal-icon">
+                        <div className="apple">
+                        <div >
+                            <Google className='apple-logo'/>
+                                                
+                        </div>
+                        <div>
+                            <h1 className='apple-tile'>Google Play Store </h1>
+                            <h1 className='title-seeond'> Apps</h1>
+
+                        
+                        </div>
+                        </div>
+                        <div className='chash'>
+                            <h1>-49$</h1>
+                        </div>
+                        
+                    </div>
+                    {/* order */}
+                    <div className="socal-icon">
+                        <div className="apple">
+                        <div >
+                            <Apple className='apple-logo'/>
+                                                
+                        </div>
+                        <div>
+                            <h1 className='apple-tile'>Amazon </h1>
+                            <h1 className='title-seeond'> Shopping</h1>
+
+                        
+                        </div>
+                        </div>
+                        <div className='chash'>
+                            <h1>-59$</h1>
+                        </div>
+                        
+                    </div>
+
+                    {/* order */}
+
+                    <div className="mobile-bootem">
+                            <div className="home">
+                            
+                            <h3 className='Hoem-title'>Home</h3>
+                            <Home></Home>
+                            </div>
+                            <div className="home">
+                            
+                            <h3 className='Hoem-title'>Home</h3>
+                            <Home></Home>
+                            </div>
+                            <div className="home">
+                            
+                            <h3 className='Hoem-title'>Home</h3>
+                            <Home></Home>
+                            </div>
+                            <div className="home">
+                            
+                            <h3 className='Hoem-title'>Home</h3>
+                            <Home></Home>
+                            </div>
+                           
+                    </div>
+
+                    
 
                 </div>
+                
 
             </div>
         </div>

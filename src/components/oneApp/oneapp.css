@@ -45,13 +45,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .card-containeres{
     height: 186px;
-    width: 310px;
+    width: 380px;
     background:linear-gradient(#485563, #29323C) ;
     border-radius: 15px;
+    position: absolute;
+    /* margin-left: 30px; */
+    
 }
 
 .card-numberss{
@@ -68,4 +72,73 @@
     justify-content:space-between;
     padding: 0 40px;
     color: white;
+}
+.expir-dates{
+    margin-left: 10px;
+}
+h5{
+    margin: -0.1px;
+}
+
+.money{
+    margin-top: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+.send-money{
+    display: flex;
+    align-items: center;
+}
+.money-title{
+    margin-left: 10px;
+}
+.Transactions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.view{
+    display: flex;
+    align-items: center;
+    color: #5BB5A2;
+}
+.socal-icon{
+    background-color: #DFEAF1;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.apple{
+    display: flex;
+    align-items: center;
+    
+}
+
+.apple-logo{
+    margin-right: 10px;
+    width: 30px !important;
+    height: 30px !important;
+    background-color: #5BB5A2;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.apple-tile{
+    font-size: 16px;
+}
+.title-seeond{
+    font-size: 12px;
+}
+.mobile-bootem{
+    display: flex;   
+    justify-content: space-around;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    
 }

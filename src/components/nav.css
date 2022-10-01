@@ -30,6 +30,7 @@
     text-decoration: none;
     display: flex;
     margin-right: 50px;
+    cursor: pointer;
     
 }
 
@@ -61,4 +62,8 @@ button{
 button:hover {
     background-color:#E8F2EE;
     color: rgb(0, 0, 0);
+  }
+
+  .login{
+      cursor: pointer;
   }
