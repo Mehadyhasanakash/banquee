@@ -31,4 +31,31 @@ const Nav = () => {
   )
 }
 
+<<<<<<< HEAD
 export default Nav
+=======
+        </div>
+
+        <div className="center">
+            <ul>
+                <li>Features</li>
+                <li>Compare</li>
+                <li>Support</li>
+                <li>Blog</li>
+            </ul>
+
+        </div>
+
+        <div className="right">
+            <h4 className='login'>Login</h4>
+            <button>Open Account</button>
+
+        </div>
+        </section>
+            
+        </>
+    );
+};
+
+export default Nav;
+>>>>>>> d6286db08aa25455fcdb4720812e10ed125915ee
