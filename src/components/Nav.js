@@ -1,34 +1,34 @@
-import React from 'react';
-import './nav.css'
+import React from 'react'
 
 const Nav = () => {
-    return (
-        <>
-        <section className='nave-container'>
-        <div className="left">
-            <p className='logo'>Banquee.</p>
+  return (
+    <nav className="navbar navbar-expand-lg navbar-light bg-light ">
+  <div className="container">
+    <a className="navbar-brand" href="/">Logo</a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/">About</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/">Service</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+      
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+  )
+}
 
-        </div>
-
-        <div className="center">
-            <ul>
-                <li>Features</li>
-                <li>Compare</li>
-                <li>Support</li>
-                <li>Blog</li>
-            </ul>
-
-        </div>
-
-        <div className="right">
-            <h4>Login</h4>
-            <button>Open Account</button>
-
-        </div>
-        </section>
-            
-        </>
-    );
-};
-
-export default Nav;
+export default Nav
